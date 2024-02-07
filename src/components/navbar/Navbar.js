@@ -12,7 +12,7 @@ import {
     MDBBtnGroup,
     MDBTooltip,
 } from 'mdb-react-ui-kit';
-
+import Logo from "../../assets/images/portfolio-logo.png";
 import "./Navbar.css";
 
 export default function NavBarJs() {
@@ -23,10 +23,11 @@ export default function NavBarJs() {
             <MDBContainer fluid>
                 <MDBNavbarBrand href='#'>
                     <img
-                        src='https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.webp'
+                        src={Logo}
                         height='30'
                         alt=''
                         loading='lazy'
+                        className='rounded-circle'
                     />
                 </MDBNavbarBrand>
                 <form className='d-flex input-group' style={{ width: "37vh", marginRight: '5vh' }}>
