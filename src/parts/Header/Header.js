@@ -23,7 +23,8 @@ export default function HeaderJs() {
     const [openBasic, setOpenBasic] = useState(false);
 
     return (
-        <div>
+        <MDBContainer fluid>
+
             <MDBCarousel>
                 <MDBCarouselItem itemId={1}>
                     <div style={{ position: "relative", marginTop: "8.3vh" }}>
@@ -101,6 +102,6 @@ export default function HeaderJs() {
                     </MDBCollapse>
                 </MDBContainer>
             </MDBNavbar>
-        </div >
+        </MDBContainer>
     );
 }
