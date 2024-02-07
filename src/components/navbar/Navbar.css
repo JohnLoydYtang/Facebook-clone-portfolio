@@ -1,0 +1,51 @@
+.Icon-color {
+    color: #95918e;
+}
+
+.Icon-color-2nd {
+    color: white;
+}
+
+.hoverBackground {
+    transition: background-color 0.3s ease;
+    border-radius: 1cap;
+}
+
+.hoverBackground:hover {
+    background-color: #484846;
+}
+
+.hoverBackground-2nd {
+    transition: background-color 0.3s ease;
+    border-radius: 1cap;
+}
+
+.hoverBackground-2nd:hover {
+    background-color: #8f8f8d;
+}
+
+.Navbar-item-style {
+    margin-right: 1.5vh;
+    width: 15vh
+}
+
+.Navbar-item-style-2nd {
+    margin-left: 20vh;
+    width: 8vh;
+    background-color: #5d5a54;
+    border-radius: 1.5vh;
+}
+
+.Navbar-item-style-3rd {
+    width: 8vh;
+    background-color: #5d5a54;
+    border-radius: 1.5vh;
+    margin-right: 0.5vh;
+    margin-left: 0.5vh
+}
+
+.Navbar-item-style-4th {
+    width: 8vh;
+    background-color: #5d5a54;
+    border-radius: 1.5vh;
+}
